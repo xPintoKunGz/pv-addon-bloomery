@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "bpvaddon",
+  "version": "${version}",
+  "name": "Bloomery Voice Visualizer",
+  "description": "Client-side configurable voice proximity visualization for Plasmo Voice.",
+  "authors": [
+    "Bloomery Network Team",
+    "xPintoKunG_Z"
+  ],
+  "contact": {
+    "sources": "https://github.com/xPintoKunGz/pv-addon-bloomery"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/bpvaddon/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "bloomery.pvaddon.BPV"
+    ],
+    "client": [
+      "bloomery.pvaddon.BPVClient"
+    ]
+  },
+  "mixins": [
+    "bpvaddon.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*",
+    "plasmovoice": ">=2.1.17"
+  }
+}
