@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Bloomery Voice Visualizer (BPVAddon)
 
 Base: existing BPVAddon project, Minecraft 1.20.1 / Fabric / Java 17 / Plasmo Voice 2.1.17.
@@ -17,7 +16,3 @@ Open this folder in IntelliJ IDEA as a Gradle project and run:
 - `gradle build` (or `.\gradlew.bat build` if you add/use the Gradle wrapper for your environment)
 
 The project targets Minecraft 1.20.1, Java 17, Fabric API 0.92.12+1.20.1, and Plasmo Voice API 2.1.17.
-=======
-# pv-addon-bloomery
-An add-on for Plasmo Voice that enhances visuals and various display elements, making them look more aesthetically pleasing.
->>>>>>> fae50c7ea9f9339b697214934159d09876862e9b
